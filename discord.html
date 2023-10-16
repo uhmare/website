@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> uhmare </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/jpg" href="img/icon.jpg">
+<style>
+  h1 {
+    text-shadow: 2px 2px 5px blue;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; width:357.46px;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+  li:last-child {
+    border-right: none;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index2.html">My Music</a></li>
+  <li><a href="index3.html">My Videos</a></li>
+  <li><a id="one" class="active" href="index4.html">Contact</a></li>
+        <ul>
+            <li class="hidden-one"><a href="discord.html">Discord</a></li>
+            <li class="hidden-one"><a href="#">Secondary Two</a></li>
+        </ul>
+     </li>
+</ul>
+<p> </p>
+
+   <center> <h1> Join Discord </h1> </center>
+  
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <div class="elfsight-app-eec29498-5656-4f25-b637-f753eac7d8a1"></div>

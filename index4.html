@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> uhmare </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/jpg" href="img/icon.jpg">
+<style>
+  h1 {
+    text-shadow: 2px 2px 5px blue;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  label {
+    text-shadow: 1px 1px 2px blue;
+  }
+
+  input {
+      text-shadow: 0.3px 0.3px 1px blue;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; width:356.46px;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+  li:last-child {
+    border-right: none;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index2.html">My Music</a></li>
+  <li><a href="index3.html">My Videos</a></li>
+  <li<a id="one" class="active" href="index4.html">Contact</a></li>
+        <ul>
+            <li class="hidden-one"><a href="discord.html">Discord</a></li>
+        </ul>
+     </li>
+</ul>
+
+</body>
+</html>
+
+<body>
+ <center> <h1> Contact Me </h1> </center>
+  
+  <center> <form action="sent.html">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="fname">Email:</label><br>
+  <input type="text" id="email" name="mail" value=""><br><br>
+  <label for="input">Message:</label><br>
+<textarea class="userInput"></textarea>
+  <input type="submit" value="Submit">
+</form> </center>center>

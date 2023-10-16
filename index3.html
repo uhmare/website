@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <title> uhmare </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/jpg" href="img/icon.jpg">
+<style>
+  h1 {
+    text-shadow: 2px 2px 5px blue;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  p {
+    text-shadow: 1px 1px 2px blue;
+  }
+
+  button {
+      text-shadow: 0.3px 0.3px 1px blue;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; width:356.46px;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+  li:last-child {
+    border-right: none;
+  }
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index2.html">My Music</a></li>
+  <li><a class="active" href="index3.html">My Videos</a></li>
+  <li><a href="index4.html">Contact</a></li>
+</ul>
+
+</body>
+</html>
+
+<body>
+ <center> <h1> My Videos </h1> </center> 
+
+</body>
+<center> <p> NAPPxSTARR - SACBOY ANTHEM (prod. pierre1k) (Official Music Video) </p> </center>
+
+
+<center> <video width="1000" controls>
+  <source src="videos/video1.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+  </center>
+
+<center> <button onclick="myFunction1()">Full Video</button>
+</center>
+
+<br> 
+
+<center> <p> Noah Boat & FBN Dxmon - Love Official (prod. Eem Triplin) (Official Music Video) </p> </center>
+
+<center> <video width="1000" controls>
+  <source src="videos/video2.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+  </center>
+
+<center> <button onclick="myFunction2()">Full Video</button>
+</center>
+
+<br> 
+
+<center> <p> FBN Dxmon - Purplx Drxam (prod. aotb) (Official Music Video) </p> </center>
+
+<center> <video width="1000" controls>
+  <source src="videos/video3.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+  </center>
+
+<center> <button onclick="myFunction3()">Full Video</button>
+  </center>
+
+<script>
+function myFunction3() {
+  var txt;
+  if (confirm("This Version Is UNCENSORED. Are you sure you want to watch the full video?")) {
+    window.location.href='https://www.youtube.com/watch?v=G4eCWG7sr7M';
+  } else {
+    txt = "";
+  }
+  document.getElementById("pop").innerHTML = txt;
+}
+  
+  function myFunction2() {
+    var txt;
+    if (confirm("This Version Is UNCENSORED. Are you sure you want to watch the full video?")) {
+      window.location.href='https://www.youtube.com/watch?v=7CXGEKXKI7U';
+    } else {
+      txt = "";
+    }
+    document.getElementById("pop").innerHTML = txt;
+  }
+  
+  function myFunction1() {
+    var txt;
+    if (confirm("This Version Is UNCENSORED. Are you sure you want to watch the full video?")) {
+      window.location.href='https://www.youtube.com/watch?v=aKMHKcnrD-M';
+    } else {
+      txt = "";
+    }
+    document.getElementById("pop").innerHTML = txt;
+  }
+</script>
+
+
